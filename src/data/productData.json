@@ -1,26 +1,236 @@
 [
-    {
-        "productid": "AP001",
-        "name": "Abstract Landscape",
-        "description": "A vibrant abstract art print showcasing the beauty of nature.",
-        "image": "https://via.placeholder.com/150",
-        "quantity": 15,
-        "price": 49.99
+  {
+    "id": "1",
+    "name": "Santa in a Dory",
+    "collection": "Seasonal Collection",
+    "series": "Newfoundland Christmas Series",
+    "medium": "Print",
+    "sizes": [
+      { "size": "8x10 (print only)", "price": 24 },
+      { "size": "8x10 (matted)", "price": 34 },
+      { "size": "16x20 (canvas reproduction)", "price": 125 }
+    ],
+    "short_description": "Santa rowing into St. John’s harbour.",
+    "detailed_description": "Acrylic on canvas locally reproduced as a print. A whimsical depiction of Santa arriving in St. John’s, surrounded by jellybean houses and the iconic Rooms museum.",
+    "tags": ["nautical", "holiday", "Newfoundland", "harbor"],
+    "flags": ["Best Seller"],
+    "images": {
+      "main": "santa_in_a_dory_ecommerce.jpg",
+      "alternate": "santa_in_a_dory_ecommerce_alt.jpg"
     },
-    {
-        "productid": "AP002",
-        "name": "Modern Portrait",
-        "description": "A contemporary portrait art print with bold colors.",
-        "image": "https://via.placeholder.com/150",
-        "quantity": 10,
-        "price": 59.99
+    "category": "prints"
+  },
+  {
+    "id": "2",
+    "name": "Santa Rows Ashore",
+    "collection": "Seasonal Collection",
+    "series": "Newfoundland Christmas Series",
+    "medium": "Print",
+    "sizes": [
+      { "size": "8x10 (print only)", "price": 24 },
+      { "size": "8x10 (matted)", "price": 34 }
+    ],
+    "short_description": "Santa rowing past Bell Island’s sea stacks.",
+    "detailed_description": "Acrylic on canvas locally reproduced as a print. A holiday celebration of Newfoundland's rugged coastline, featuring the historic Bell sea stack.",
+    "tags": ["coastal", "maritime", "Newfoundland", "sea stacks"],
+    "flags": [],
+    "images": {
+      "main": "santa_rows_ashore_ecommerce.jpg",
+      "alternate": "santa_rows_ashore_ecommerce_alt.jpg"
     },
-    {
-        "productid": "AP003",
-        "name": "Minimalist Lines",
-        "description": "A minimalist art print featuring clean lines and shapes.",
-        "image": "https://via.placeholder.com/150",
-        "quantity": 20,
-        "price": 39.99
-    }
+    "category": "prints"
+  },
+  {
+    "id": "3",
+    "name": "Heritage Santa",
+    "collection": "Seasonal Collection",
+    "series": "Newfoundland Christmas Series",
+    "medium": "Print",
+    "sizes": [
+      { "size": "16x20", "price": 49 }
+    ],
+    "short_description": "Santa wearing a traditional navigator's hat.",
+    "detailed_description": "Acrylic on canvas locally reproduced as a print. A unique depiction of Santa with a maritime navigator's hat adorned with the Newfoundland and Labrador flags, blending heritage and whimsy.",
+    "tags": ["heritage", "maritime", "Newfoundland", "navigation"],
+    "flags": [],
+    "images": {
+      "main": "heritage_santa_ecommerce.jpg",
+      "alternate": "heritage_santa_ecommerce_alt.jpg"
+    },
+    "category": "prints"
+  },
+  {
+    "id": "4",
+    "name": "Santa at the Cape",
+    "collection": "Seasonal Collection",
+    "series": "Newfoundland Christmas Series",
+    "medium": "Print",
+    "sizes": [
+      { "size": "16x20", "price": 49 }
+    ],
+    "short_description": "Santa anchoring at Cape Spear lighthouse.",
+    "detailed_description": "Acrylic on canvas locally reproduced as a print. Santa arrives at Cape Spear, guided by its historic lighthouse, celebrating Newfoundland’s maritime legacy.",
+    "tags": ["lighthouse", "holiday", "Newfoundland", "Cape Spear"],
+    "flags": [],
+    "images": {
+      "main": "santa_at_the_cape_ecommerce.jpg",
+      "alternate": "santa_at_the_cape_ecommerce_alt.jpg"
+    },
+    "category": "prints"
+  },
+  {
+    "id": "5",
+    "name": "Santa on George Street",
+    "collection": "Seasonal Collection",
+    "series": "Newfoundland Christmas Series",
+    "medium": "Print",
+    "sizes": [
+      { "size": "8x18", "price": 47 }
+    ],
+    "short_description": "Santa enjoying the lively George Street.",
+    "detailed_description": "Acrylic on canvas locally reproduced as a print. Santa takes a festive stroll down George Street, surrounded by its iconic charm and holiday cheer.",
+    "tags": ["festive", "urban", "Newfoundland", "George Street"],
+    "flags": [],
+    "images": {
+      "main": "santa_on_george_street_ecommerce.jpg",
+      "alternate": "santa_on_george_street_ecommerce_alt.jpg"
+    },
+    "category": "prints"
+  },
+  {
+    "id": "6",
+    "name": "Santa's Jellybean Row",
+    "collection": "Seasonal Collection",
+    "series": "Newfoundland Christmas Series",
+    "medium": "Print",
+    "sizes": [
+      { "size": "11x14", "price": 34 }
+    ],
+    "short_description": "Santa with a whimsical jellybean row.",
+    "detailed_description": "Acrylic on canvas locally reproduced as a print. A vibrant depiction of Santa’s beard blending into waves carrying iconic jellybean houses, lighthouses, and fishing stages.",
+    "tags": ["jellybean houses", "holiday", "Newfoundland", "colorful"],
+    "flags": ["Artist Pick", "New for 2023"],
+    "images": {
+      "main": "santas_jellybean_row_ecommerce.jpg",
+      "alternate": "santas_jellybean_row_ecommerce_alt.jpg"
+    },
+    "category": "prints"
+  },
+  {
+    "id": "7",
+    "name": "The Mariner",
+    "collection": "Seasonal Collection",
+    "series": "Newfoundland Christmas Series",
+    "medium": "Print",
+    "sizes": [
+      { "size": "8x8", "price": 20 },
+      { "size": "12x12", "price": 40 }
+    ],
+    "short_description": "A festive mariner in a traditional setting.",
+    "detailed_description": "Acrylic on canvas locally reproduced as a print. A celebration of Newfoundland’s maritime traditions, featuring a festive mariner with vibrant colors and playful details.",
+    "tags": ["maritime", "festive", "Newfoundland", "sailor"],
+    "flags": ["Artist Pick", "New for 2024"],
+    "images": {
+      "main": "the_mariner_ecommerce.jpg",
+      "alternate": "the_mariner_ecommerce_alt.jpg"
+    },
+    "category": "prints"
+  },
+  {
+    "id": "8",
+    "name": "The Fiddle Player",
+    "collection": "Seasonal Collection",
+    "series": "Mummers Series",
+    "medium": "Print",
+    "sizes": [
+      { "size": "8x10 (print only)", "price": 24 },
+      { "size": "8x10 (matted)", "price": 34 }
+    ],
+    "short_description": "A mummer playing a fiddle in festive spirit.",
+    "detailed_description": "Acrylic on canvas locally reproduced as a print. Part of the Mummers Series, this piece celebrates traditional Newfoundland music with a mummer and their fiddle.",
+    "tags": ["mummering", "music", "Newfoundland", "fiddle"],
+    "flags": [],
+    "images": {
+      "main": "the_fiddle_player_ecommerce.jpg",
+      "alternate": "the_fiddle_player_ecommerce_alt.jpg"
+    },
+    "category": "prints"
+  },
+  {
+    "id": "9",
+    "name": "The Accordion Player",
+    "collection": "Seasonal Collection",
+    "series": "Mummers Series",
+    "medium": "Print",
+    "sizes": [
+      { "size": "8x10 (print only)", "price": 24 },
+      { "size": "8x10 (matted)", "price": 34 }
+    ],
+    "short_description": "A mummer playing the accordion.",
+    "detailed_description": "Acrylic on canvas locally reproduced as a print. A whimsical mummer with an accordion, celebrating Newfoundland’s musical traditions in holiday style.",
+    "tags": ["accordion", "mummering", "Newfoundland", "music"],
+    "flags": [],
+    "images": {
+      "main": "the_accordion_player_ecommerce.jpg",
+      "alternate": "the_accordion_player_ecommerce_alt.jpg"
+    },
+    "category": "prints"
+  },
+  {
+    "id": "10",
+    "name": "Santa's Mummers",
+    "collection": "Seasonal Collection",
+    "series": "Mummers Series",
+    "medium": "Print",
+    "sizes": [
+      { "size": "16x20", "price": 49 }
+    ],
+    "short_description": "Santa's beard full of mummers.",
+    "detailed_description": "Acrylic on canvas locally reproduced as a print. A playful depiction of Santa’s beard teeming with mummers and traditional Newfoundland instruments.",
+    "tags": ["mummering", "holiday", "Newfoundland", "music"],
+    "flags": ["Best Seller"],
+    "images": {
+      "main": "santas_mummers_ecommerce.jpg",
+      "alternate": "santas_mummers_ecommerce_alt.jpg"
+    },
+    "category": "prints"
+  },
+  {
+    "id": "11",
+    "name": "The Navigator's Hat",
+    "collection": "Seasonal Collection",
+    "series": "Original Christmas Paintings",
+    "medium": "Original",
+    "sizes": [
+      { "size": "10x10", "price": 295 }
+    ],
+    "short_description": "Acrylic on canvas, signed original.",
+    "detailed_description": "Acrylic on canvas with handcrafted frame. An original acrylic painting of Santa’s navigator hat, inspired by Newfoundland’s maritime heritage.",
+    "tags": ["original", "heritage", "Newfoundland", "navigation"],
+    "flags": ["New for 2024"],
+    "images": {
+      "main": "the_navigators_hat_ecommerce.jpg",
+      "alternate": "the_navigators_hat_ecommerce_alt.jpg"
+    },
+    "category": "originals"
+  },
+  {
+    "id": "12",
+    "name": "Father Christmas Folk Decoration",
+    "collection": "Seasonal Collection",
+    "series": "Handcrafted Christmas Decorations",
+    "medium": "Handcrafted",
+    "sizes": [
+      { "size": "19x13.5", "price": 175 }
+    ],
+    "short_description": "Handcrafted Father Christmas decoration.",
+    "detailed_description": "A unique, hand-painted folk decoration featuring Father Christmas, crafted with reclaimed materials.",
+    "tags": ["handcrafted", "folk art", "Newfoundland", "sustainable"],
+    "flags": ["New for 2024"],
+    "images": {
+      "main": "father_christmas_decoration_ecommerce.jpg",
+      "alternate": "father_christmas_decoration_ecommerce_alt.jpg"
+    },
+    "category": "handcrafted"
+  }
 ]
