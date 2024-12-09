@@ -1,0 +1,26 @@
+[
+    {
+        "productid": "AP001",
+        "name": "Abstract Landscape",
+        "description": "A vibrant abstract art print showcasing the beauty of nature.",
+        "image": "https://via.placeholder.com/150",
+        "quantity": 15,
+        "price": 49.99
+    },
+    {
+        "productid": "AP002",
+        "name": "Modern Portrait",
+        "description": "A contemporary portrait art print with bold colors.",
+        "image": "https://via.placeholder.com/150",
+        "quantity": 10,
+        "price": 59.99
+    },
+    {
+        "productid": "AP003",
+        "name": "Minimalist Lines",
+        "description": "A minimalist art print featuring clean lines and shapes.",
+        "image": "https://via.placeholder.com/150",
+        "quantity": 20,
+        "price": 39.99
+    }
+]
