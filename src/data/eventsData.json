@@ -1,0 +1,26 @@
+[
+    {
+        "id": 1,
+        "date": "2023-11-01",
+        "title": "Modern Art Fair",
+        "description": "An exhibition showcasing modern art from around the world.",
+        "location": "St. John's, NL",
+        "time": "10:00 AM"
+        },
+        {
+        "id": 2,
+        "date": "2023-11-15",
+        "title": "Abstract Art Workshop",
+        "description": "A workshop to explore abstract art techniques.",
+        "location": "Corner Brook, NL",
+        "time": "02:00 PM"
+        },
+        {
+        "id": 3,
+        "date": "2023-12-05",
+        "title": "Art and Craft Fair",
+        "description": "A fair featuring handmade crafts and artworks.",
+        "location": "Gander, NL",
+        "time": "09:00 AM"
+    }
+]

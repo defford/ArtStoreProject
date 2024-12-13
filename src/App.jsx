@@ -5,7 +5,7 @@ import Shop from './screens/Shop';
 import Checkout from './screens/Checkout';
 import Header from './screens/Header';
 import Footer from './screens/Footer'
-
+  
 function App() {
 
   return (

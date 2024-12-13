@@ -1,4 +1,5 @@
 import React from 'react'
+import Events from './Events.jsx'
 
 const Home = () => {
   return (
@@ -98,10 +99,54 @@ const Home = () => {
               <br /><br />
               Elizabeth is committed to community. She supports outport projects and works exclusively with local businesses for supplies, framing, and marketing. Her vision is to nurture an artistic collective that celebrates Newfoundland’s traditions while inspiring collaboration and creativity across generations. 
             </p>
-          <div className="artistBottom">
-            <p>Through her work, Elizabeth strives to preserve and share the stories of her home.</p>
+            <div className="artistBottom">
+              <p>Through her work, Elizabeth strives to preserveand share the stories of her home.</p>
+            </div>
           </div>
+        </div>
+      </div>
+      <div className="communitySection">
+        <div className="communityLeftSide">
+          <h1 className="communityTitle">Community</h1>
+          <div className="communityTextBar">
+            <p>Join us in celebrating Newfoundland and Labrador’sart and culture.</p>
           </div>
+          <div className="communityTile">
+            <h3>Collaborating with Creators</h3>
+            <p>Newfound Art Co. is proud to work with local artists and makers to preserve Newfoundland’s artistic traditions. Through partnerships and collaborations, we bring new life to heritage crafts and storytelling.</p>
+          </div>
+          <div className="communityTile">
+            <h3>Contributing to Heritage Events</h3>
+            <p>We actively participate in heritage festivals, art shows, and community initiatives that celebrate Newfoundland and Labrador’s culture. From showcasing our work to fostering connections, we’re committed to keeping our history alive.</p>
+          </div>
+          <div className="communityTile">
+            <h3>Building Like-Minded Groups</h3>
+            <p>Beyond art, we’re building a community of creators and admirers. Join us in online groups, workshops, or local events to connect, share ideas, and be part of something bigger.</p>
+            <button className="communityButton">JOIN CREW</button>
+          </div>
+        </div>
+        <div className="communityRightSide">
+          <img src="src/assets/PaintingTools.png" alt="" id="communityImage" width="100%" height="100%" />
+        </div>
+      </div>
+      <div className="eventsSection">
+        <div className="eventsHeader">
+          <h1>Events</h1>
+          <h3>Where and when art is being passed on in Newfoundland</h3>
+          <p>Join us at craft fairs, markets, and art festivals where Elizabeth showcases her work and connects with the community. We host interactive events, including online and in-person painting classes, workshops, and artist meetups. Whether you're an aspiring artist, a professional, or simply love local art, there’s a place for you.</p>
+        </div>
+        <div className="eventsListSection">
+          <Events />
+        </div>
+      </div>
+
+      <div className="newsletterSection">
+        <img src="src/assets/rope_long 1.png" alt="" id="newsletterRope"/>
+        <div className="newsletterContainer">
+          <img src="src/assets/NFALogo.png" alt="" className="newsletterLogo" />
+          <p>Stay informed - join the newsletter</p>
+          <input type="email" className="newsletterInput" placeholder="Your email address"/>
+          <button className="newsletterButton">SUBSCRIBE</button>
         </div>
       </div>
     </>

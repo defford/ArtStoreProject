@@ -2,7 +2,7 @@
 
 html, body {
     font-family: 'cormorant-garamond';
-    background-color: #F2E9D8;
+    background-color: #013A40;
     padding: 0;
     margin: 0;
 }
@@ -395,7 +395,7 @@ html, body {
 }
 
 .artistSection {
-    height: 110vh;
+    height: 105vh;
     background-color: #ffffff;
     text-align: center;
     position: relative;
@@ -460,4 +460,321 @@ html, body {
     text-align: left;
     line-height: 1.5em;
     padding: 1vh;
+}
+
+.communitySection {
+    height: 105vh;
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    position: relative;
+}
+
+.communityLeftSide {
+    background-color: white;
+    width: 50%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.communityRightSide {
+    width: 50%;
+    height: 100%;
+    position: absolute;
+    right: 0;
+}
+
+.communityLeftSide h1 {
+    font-size: 4.5rem;
+    font-weight: 100;
+    letter-spacing: 14%;
+    margin-top: 12%;
+    margin-bottom: 0;
+}
+
+.communityTextBar {
+    width: 100%;
+    background-color: #011C26;
+    color: white;
+    font-family: 'montserrat';
+    font-weight: 300;
+    letter-spacing: 10%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.communityTextBar p {
+    width: 57%;
+    font-size: 0.8em;
+}
+
+.communityTile {
+    width: 60%;
+}
+
+.communityTile h3 {
+    font-weight: 100;
+    font-size: 1.6em;
+    letter-spacing: 5%;
+    margin: 0;
+    margin-bottom: 1.5vh;
+}
+
+.communityTile p {
+    font-family: 'montserrat';
+    font-size: 0.5em;
+    font-weight: 200;
+    letter-spacing: 5%;
+    line-height: 1vw;
+    margin: 0;
+}
+
+.communityButton {
+    background-color: #013A40;
+    color: #F2E9D8;
+    letter-spacing: 10%;
+    margin-top: 5vh;
+    padding: 1vh 2vw;
+    border-radius: 6px;
+    box-shadow: 1px 4px 5px rgba(0, 0, 0, 0.3);
+    border: 1px solid #013A40;
+}
+
+.eventsSection {
+    display: flex;
+    background-color: #F2E9D8;
+    height: auto;
+    width: 100%;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.eventsHeader {
+    width: 60%;
+    text-align: center;
+    padding-top: 5vh;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    flex-direction: column;
+}
+
+.eventsHeader h1 {
+    font-weight: 100;
+    font-size: 5rem;
+    letter-spacing: 10%;
+    padding: 0;
+    margin: 0;
+}
+
+.eventsHeader h3 {
+    font-family: 'montserrat';
+    font-size: 0.85em;
+    font-weight: 300;
+    letter-spacing: 10%;
+    padding: 2%;
+    margin: 0;
+}
+
+.eventsHeader p {
+    width: 80%;
+    font-family: 'montserrat';
+    font-size: 0.6em;
+    font-weight: 300;
+    line-height: 1.5em;
+}
+
+.eventsListSection {
+    width: 60%;
+    height: auto;
+    display: flex;
+    justify-content: center;
+    align-items: top;
+    padding: 0;
+    margin: 0;
+}
+
+.eventsList {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    margin: 0;
+    padding-top: 5%;
+}
+
+.eventContainer {
+    height: auto;
+    margin: 2%;
+    display: flex;
+    flex-direction: row;
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.2);
+}
+
+.eventDate {
+    background-color: #011C26;
+    color: #F2E9D8;
+    width: 20%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.eventDate h1 {
+    font-family: 'montserrat';
+    font-size: 3em;
+    font-weight: 600;
+    margin-bottom: 0;
+}
+
+.eventDate p {
+    font-family: 'montserrat';
+    font-weight: 300;
+    font-size: 0.5em;
+    margin-top: 0;
+    padding-bottom: 10%;
+}
+
+.eventText {
+    padding: 1vh 3vw;
+}
+
+.eventText h1 {
+    font-size: 1.25em;
+    font-weight: 100;
+    letter-spacing: 10%;
+}
+
+.eventText p {
+    font-family: 'montserrat';
+    font-size: 0.5em;
+}
+
+.eventText img {
+    margin-top: 1vh;
+    margin-right: 0.3vw;
+}
+
+.eventTime {
+    display: flex;
+    flex-direction: row;
+}
+
+.eventTime p {
+    margin-right: 1vw;
+    font-weight: 300;
+}
+
+.newsletterSection {
+    background-color: #F2E9D8;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+#newsletterRope {
+    transform: rotate(90);
+    margin-top: 10vh;
+    width: 100%;
+}
+
+.newsletterContainer {
+    width: 40%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.newsletterLogo {
+    width: 50%;
+    margin-top: 5vh;    
+}
+
+.newsletterContainer p {
+    font-family: 'montserrat';
+    font-weight: 300;
+    letter-spacing: 10%;
+    font-size: 0.8em;
+}
+
+.newsletterContainer input {
+    background-color: #F2E9D8;
+    color: #011C26;
+    width: 60%;
+    font-family: 'montserrat';
+    letter-spacing: 8%;
+    text-align: center;
+}
+
+.newsletterContainer button {
+    background-color: #336267;
+    margin: 4%;
+    font-size: 0.8em;
+    font-weight: 500;
+    color: #F2E9D8;
+    border-radius: 6px;
+    box-shadow: 1px 4px 5px rgba(0, 0, 0, 0.3);
+    border: 1px solid #336267;
+    padding: 2vh 2vw;
+    letter-spacing: 15%;
+}
+
+.footerContainer {
+    background-color: #013A40;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.footerSocials {
+    width: 13%;
+    margin-top: 10vh;
+    margin-bottom: 5vh;
+    display: flex;
+    justify-content: space-between;
+}
+
+.footerSocials img {
+    height: 3vh;
+    width: auto;
+}
+
+.footerContainer h3 {
+    color: #F2E9D8;
+    font-family: 'montserrat';
+    font-size: 0.3em;
+    font-weight: 500;
+    letter-spacing: 15%;
+}
+
+.footerContainer a {
+    color: #F2E9D8;
+    font-family: 'montserrat';
+    font-size: 0.3em;
+    font-weight: 300;
+    letter-spacing: 15%;
+    margin: 0 2vw;
+    text-decoration: none;
+}
+
+.footerContainer p {
+    margin: 0;
+    margin-bottom: 2vh;
+}
+
+.footerContainer p:last-child {
+    color: #F2E9D8;
+    font-family: 'montserrat';
+    font-size: 0.2em;
+    font-weight: 300;
+    letter-spacing: 10%;
+    padding-top: 2vh;
 }
