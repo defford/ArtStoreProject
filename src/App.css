@@ -9,8 +9,6 @@ html, body {
 
 .navContainer {
     width: 100%;
-    position: fixed;
-    z-index: 40;
 }
 
 .navBar {
@@ -32,14 +30,14 @@ html, body {
 
 .navLinks {
     position: absolute;
-    right: 8%;
+    right: 12%;
 }
 
 .navLinks a {
-    margin: 23px;
-    font-size: 0.75rem;
+    margin: 1.4vw;
+    font-size: 0.70rem;
     font-weight: 300;
-    letter-spacing: 1.4px;
+    letter-spacing: 10%;
     color: #011C26;
     text-decoration: none;
 }
@@ -95,7 +93,8 @@ html, body {
   .heroText {
     font-family: 'montserrat';
     font-weight: 350;
-    font-size: 12px;
+    font-size: 80%;
+    width: 30vw;
     color: #011C26;
     letter-spacing: 1px;
     line-height: 20px;
@@ -109,7 +108,7 @@ html, body {
   .heroButton1 {
     background-color: #8C031C;
     color: #F2E9D8;
-    width: 140px;
+    width: 10%;
     height: 40px;
     padding: 0px 20px;
     border-radius: 6px;
@@ -126,7 +125,7 @@ html, body {
   .heroButton2 {
     background-color: #013A40;
     color: #F2E9D8;
-    width: 140px;
+    width: 10%;
     height: 40px;
     padding: 0px 20px;
     border-radius: 6px;
@@ -142,41 +141,36 @@ html, body {
 
   .ourStory {
     background: #F2E9D8;
-    height: 110vh;
+    height: auto;
     color: white; 
-    position: relative;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
   }
 
 .ourStoryTitle {
-    color: #013A40;
-    font-size: 5vw;
+    color: #013A40; 
+    font-size: 450%;
     font-weight: 200;
     letter-spacing: 12%;
-    position: absolute;
-    top: 38.5%;
-    left: -1.5%;
     transform: rotate(270deg);
 }
 
 #ropeImage {
-    height: 100%;
-    position: absolute;
-    top: 0;
-    left: 26%
+    max-height: 100%;
 }
 
 .storyParts {
     color: #011C26;
     width: 30%;
+    margin-top: 10%;
+    margin-left: 10%;
     display: flex;
     flex-direction: column;
-    position: absolute;
-    left: 40%;
-    top: 12%;
 }
 
 .storyPart h3 {
-    font-size: 3.2vh;
+    font-size: 150%;
     font-weight: 100;
     letter-spacing: 3px;
 }
@@ -185,54 +179,65 @@ html, body {
     font-family: 'montserrat';
     font-size: 10px;
     font-weight: 300;
+    line-height: 1.5em;
     padding-bottom: 110px;
 }
 
-.valuesBackground {
+.valuesSection {
     background-color: #013A40;
-    height: 110vh;
-    position: relative;
+    height: auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 
-#valuesImage1 {
-    width: 20.2vw;
-    position: absolute;
-    top: 13.1%;
-    left: 19.8%;
+.valuesSection img {
+    width: 101%;
+    height: 101%;
+    border: 0;
+    margin: 0;
+    padding: 0;
 }
 
-#valuesImage2 {
-    width: 20.5vw;
-    position: absolute;
-    top: 37.2%;
-    left: 40.2%;
+.valuesGrid {
+    width: 80%;
+    margin: 10% auto 20% auto;
+    display: grid;
+    justify-content: center;
+    align-items: center;
+    grid-template-columns: repeat(3, 25%);
+    grid-template-rows: repeat(3, 30%);
+    grid-gap: 5px;
 }
 
-#valuesImage3 {
-    width: 22.6vw;
-    position: absolute;
-    top: 61.7%;
-    left: 61%;
+.valuesGrid1 {
+    grid-row-start: 1;
+    grid-row-end: 2;
+    grid-column-start: 1;
+    grid-column-end: 2;
+    width: 100%;
+    height: 100%;
+    aspect-ratio: 1/1;
 }
 
 .valuesGrid2 {
     background-color: #F2E9D8;
-    padding: 20px 30px;
-    width: 15.7vw;
-    height:auto;
+    padding: 2% 30px;
     font-family: 'montserrat';
     font-size: 1.3vh;
     font-weight: 400;
     line-height: 2vh;
     color: #011C26;
-    position: absolute;
-    top: 37.5%;
-    left: 20%;
+    grid-row-start: 2;
+    grid-row-end: 3;
+    grid-column-start: 1;
+    grid-column-end: 2;
+    width: 100%;
+    height: 100%;
+    box-sizing: border-box;
 } 
 
 .valuesGrid2 h3 {
-    margin: 0;
-    margin-bottom: 4vh;
     font-size: 2.4vh;
     letter-spacing: 0.15vw;
     line-height: 3vh;
@@ -242,22 +247,22 @@ html, body {
 
 .valuesGrid3 {
     background-color: #F2E9D8;
-    padding: 3.1em;
-    width: 15.7vw;
-    height:auto;
+    padding: 2% 30px;
     font-family: 'montserrat';
     font-size: 1.3vh;
     font-weight: 400;
     line-height: 2vh;
     color: #011C26;
-    position: absolute;
-    top: 62%;
-    left: 20%;
+    grid-row-start: 3;
+    grid-row-end: 4;
+    grid-column-start: 1;
+    grid-column-end: 2;
+    width: 100%;
+    height: 100%;
+    box-sizing: border-box; /* Ensure padding does not cause overflow */
 } 
 
 .valuesGrid3 h3 {
-    margin: 0;
-    margin-bottom: 4vh;
     font-size: 2.4vh;
     letter-spacing: 0.15vw;
     line-height: 3vh;
@@ -265,29 +270,47 @@ html, body {
     font-family: 'cormorant-garamond';
 }
 
+.valuesGrid4 {
+    grid-row-start: 2;
+    grid-row-end: 3;
+    grid-column-start: 2;
+    grid-column-end: 3;
+    width: 100%;
+    height: 100%;
+}
+
 .valuesGrid5 {
     background-color: #F2E9D8;
-    padding: 30px;
-    width: 16vw;
-    height:auto;
+    padding: 2% 30px;
     font-family: 'montserrat';
     font-size: 1.3vh;
     font-weight: 400;
     line-height: 2vh;
     color: #011C26;
-    position: absolute;
-    top: 62%;
-    left: 40.4%;
+    grid-row-start: 3;
+    grid-row-end: 4;
+    grid-column-start: 2;
+    grid-column-end: 3;
+    width: 100%;
+    height: 100%;
+    box-sizing: border-box; /* Ensure padding does not cause overflow */
 } 
 
 .valuesGrid5 h3 {
-    margin: 0;
-    margin-bottom: 4vh;
     font-size: 2.4vh;
     letter-spacing: 0.15vw;
     line-height: 3vh;
     font-weight: 100;
     font-family: 'cormorant-garamond';
+}
+
+.valuesGrid6 {
+    grid-row-start: 3;
+    grid-row-end: 4;
+    grid-column-start: 3;
+    grid-column-end: 4;
+    width: 100%;
+    height: 100%;
 }
 
 .valuesTitle {
@@ -295,22 +318,25 @@ html, body {
     font-size: 10vh;
     font-weight: 100;
     letter-spacing: 0.8vw;
-    position: absolute;
-    top: 13%;
-    right: 14%;
+    text-align: right;
+    grid-row-start: 1;
+    grid-row-end: 2;
+    grid-column-start: 2;
+    grid-column-end: 4;
 }
 
 .featureSection {
-    height: 110vh;
+    height: auto;
     background-color: #F2E9D8;
     padding-top: 10vh;
+    padding-bottom: 10vh;
     text-align: center;
     position: relative;
 }
 
 .featureSection h1 {
     font-family: 'cormorant-garamond';
-    font-size: 9.2vh;
+    font-size: 5em;
     font-weight: 100;
     letter-spacing: 0.7vw;
     margin: 0;
@@ -339,26 +365,27 @@ html, body {
     background-color: white;
     border: 2px solid black;
     width: 80%;
-    height: 50%;
-    margin: 5vh auto;
-    padding: 4vh 5vw;
+    height: auto;
+    margin: 5vh;
+    padding: 2vh 5vw;
     display: inline-flex;
     flex-direction: row;
-    justify-content: space-around;
+    justify-content: space-between;
     box-sizing: border-box;
 }
 
 .featureBox img {
-    height: calc(100% - 8vh); 
-    width: auto;
+    height: 60%;
+    width: 80%; 
 }
 
 .featureTile {
-    flex: 1;
-    min-width: 200px;
+    height: 100%;
+    margin: 2vw;
 }
 
 .featureTile h3 {
+    font-size: 100%;
     font-weight: 100;
     letter-spacing: 0.2vw;
 }
@@ -383,8 +410,8 @@ html, body {
     color: #F2E9D8;
     justify-content: center;
     align-items: center;
-    width: 10vw;
-    padding: 1.5vh 2vw;
+    width: 12vw;
+    padding: 1.5vh 1vw;
     font-weight: 500;
     display: flex;
     margin: 0 auto;
@@ -395,26 +422,24 @@ html, body {
 }
 
 .artistSection {
-    height: 105vh;
+    height: auto;
+    width: 100%;
     background-color: #ffffff;
     text-align: center;
-    position: relative;
+    display: flex;
+    flex-direction: row;
 }
 
 .artistSection img {
-    height: 100%;
+    height: auto;
     width: 50%;
-    position: absolute;
-    left: 0;
 }
 
 .artistText {
-    width: 26%;
+    width: 50%;
     height: auto;
-    position: absolute;
-    top: 6%;
-    right: 15%;
     text-align: left;
+    margin-left: 20%;
 }
 
 .artistText h1 {
@@ -442,57 +467,47 @@ html, body {
 
 .artistBottom {
     background-color: #011C26;
-    width: 190%;
     font-family: 'montserrat';
     text-align: center;
-    font-size: 1.5em;
-    letter-spacing: 0.7vw;
-    font-weight: 100;
+    font-size: 70%;
+    margin-top: 15%;
+    margin-bottom: 15%;
+    font-weight: 300;
     color: white;
-    position: absolute;
-    left: -35%;
-    top: 115%;
 }
 
 .artistBottom p {
     margin: 0 auto;
     width: 60%;
+    letter-spacing: 0.1vw;
     text-align: left;
     line-height: 1.5em;
     padding: 1vh;
 }
 
 .communitySection {
-    height: 105vh;
+    height: auto;
     width: 100%;
     display: flex;
     flex-direction: row;
-    position: relative;
 }
 
 .communityLeftSide {
     background-color: white;
     width: 50%;
-    height: 100%;
-    display: flex;
-    flex-direction: column;
-    justify-content: space-around;
-    align-items: center;
+    height: auto;
 }
 
 .communityRightSide {
     width: 50%;
-    height: 100%;
-    position: absolute;
-    right: 0;
+    height: auto;
 }
 
 .communityLeftSide h1 {
-    font-size: 4.5rem;
+    font-size: 5vw;
     font-weight: 100;
     letter-spacing: 14%;
-    margin-top: 12%;
-    margin-bottom: 0;
+    margin: 12% 0 4% 20%;
 }
 
 .communityTextBar {
@@ -501,7 +516,8 @@ html, body {
     color: white;
     font-family: 'montserrat';
     font-weight: 300;
-    letter-spacing: 10%;
+    letter-spacing: 0.1vw;
+    margin-bottom: 5%;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -514,11 +530,14 @@ html, body {
 
 .communityTile {
     width: 60%;
+    margin-left: 20%;
+    margin-top: 5%;
+    margin-bottom: 7%;
 }
 
 .communityTile h3 {
     font-weight: 100;
-    font-size: 1.6em;
+    font-size: 150%;
     letter-spacing: 5%;
     margin: 0;
     margin-bottom: 1.5vh;
@@ -526,10 +545,10 @@ html, body {
 
 .communityTile p {
     font-family: 'montserrat';
-    font-size: 0.5em;
+    font-size: 20%;
     font-weight: 200;
     letter-spacing: 5%;
-    line-height: 1vw;
+    line-height: 2vh;
     margin: 0;
 }
 
@@ -537,7 +556,7 @@ html, body {
     background-color: #013A40;
     color: #F2E9D8;
     letter-spacing: 10%;
-    margin-top: 5vh;
+    margin: 5vh 0;
     padding: 1vh 2vw;
     border-radius: 6px;
     box-shadow: 1px 4px 5px rgba(0, 0, 0, 0.3);
@@ -582,21 +601,16 @@ html, body {
 }
 
 .eventsHeader p {
-    width: 80%;
-    font-family: 'montserrat';
     font-size: 0.6em;
-    font-weight: 300;
+    width: 70%;
+    letter-spacing: 0.05em;
     line-height: 1.5em;
+    font-weight: 300;
+    font-family: 'montserrat';
 }
 
 .eventsListSection {
-    width: 60%;
-    height: auto;
-    display: flex;
-    justify-content: center;
-    align-items: top;
-    padding: 0;
-    margin: 0;
+    width: 50%;
 }
 
 .eventsList {
@@ -611,7 +625,7 @@ html, body {
     height: auto;
     margin: 2%;
     display: flex;
-    flex-direction: row;
+    background-color: #F2E9D8;
     box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.2);
 }
 
@@ -619,6 +633,7 @@ html, body {
     background-color: #011C26;
     color: #F2E9D8;
     width: 20%;
+    flex: 0 0 20%;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -647,7 +662,7 @@ html, body {
 .eventText h1 {
     font-size: 1.25em;
     font-weight: 100;
-    letter-spacing: 10%;
+    letter-spacing: 0.1em;
 }
 
 .eventText p {
@@ -777,4 +792,212 @@ html, body {
     font-weight: 300;
     letter-spacing: 10%;
     padding-top: 2vh;
+}
+
+
+
+@media (max-width: 700px) {
+    
+    .navLinks a {
+        font-size: 50%;
+    }
+
+    #cart {
+        left: 90%;
+    }
+
+    .hero {
+        height: 80vh;
+    }
+
+    .heroText {
+        font-size: 10px;
+        width: 110%;
+        left: 20%;
+        top: 60%;
+    }
+
+    .heroButton1, .heroButton2 {
+        width: 15vw;
+        height: 4em;
+        font-size: 0.5em;
+        top: 70%;
+        padding: 0;
+    }
+
+    .heroButton2 {
+        left: 40%;
+    }
+
+    .ourStoryTitle {
+        font-size: 8vw;
+        top: 35%;
+    }
+
+    .storyParts {
+        width: 80%;
+        left: 10%;
+    }
+
+    .valuesGrid {
+        width: 90%;
+    }
+
+    .valuesTitle {
+        font-size: 8vh;
+        top: 10%;
+        right: 10%;
+        text-align: center;
+    }
+
+    .valuesGrid {
+        margin: 10% auto 40% auto;
+        height: auto;
+        grid-template-rows: repeat(4, 25%);
+        grid-template-columns: repeat(2, 40%);
+    }
+
+    .valuesTitle {
+        grid-row: 1 / 2;
+        grid-column: 1 / 2;
+    }
+
+    .valuesGrid2 {
+        grid-row: 2/3;
+        grid-column: 1/2
+    }
+
+    .valuesGrid3 {
+        grid-row-start: 2;
+        grid-row-end: 3;
+        grid-column-start: 2;
+        grid-column-end: 3;
+    }
+
+    .valuesGrid4 {
+        grid-row-start: 4;
+        grid-row-end: 5;
+        grid-column-start: 1;
+        grid-column-end: 2;
+    }
+
+    .valuesGrid5 {
+        grid-row-start: 4;
+        grid-row-end: 5;
+        grid-column-start: 1;
+        grid-column-end: 2;
+    }
+
+    .valuesGrid6 {
+        grid-row-start: 4;
+        grid-row-end: 5;
+        grid-column-start: 1;
+        grid-column-end: 2;
+    }
+
+    .valuesGrid p {
+        font-size: smaller;
+    }
+
+    .valuesGrid3 {
+        height: auto;
+    }
+
+    .featureSection h1 {
+        font-size: 7vh;
+    }
+
+    .featureSection p {
+        font-size: 0.7rem;
+    }
+
+    .featureBox {
+        width: 90%;
+        height: 40%;
+    }
+
+    .artistText {
+        width: 80%;
+        right: 10%;
+    }
+
+    .artistText h1 {
+        font-size: 3em;
+    }
+
+    .artistText h3 {
+        font-size: 0.7em;
+    }
+
+    .artistText p {
+        font-size: 0.4em;
+    }
+
+    .communityLeftSide h1 {
+        font-size: 4vw;
+    }
+
+    .communityTile h3 {
+        font-size: 1.5vw;
+    }
+
+    .communityTile p {
+        font-size: 15%;
+    }
+
+    .eventsHeader h1 {
+        font-size: 4rem;
+    }
+
+    .eventsHeader h3 {
+        font-size: 0.7em;
+    }
+
+    .eventsHeader p {
+        font-size: 0.5em;
+    }
+
+    .eventDate h1 {
+        font-size: 2.5em;
+    }
+
+    .eventDate p {
+        font-size: 0.4em;
+    }
+
+    .eventText h1 {
+        font-size: 1em;
+    }
+
+    .eventText p {
+        font-size: 0.4em;
+    }
+
+    .newsletterContainer {
+        width: 80%;
+    }
+
+    .newsletterContainer p {
+        font-size: 0.7em;
+    }
+
+    .newsletterContainer input {
+        width: 80%;
+    }
+
+    .newsletterContainer button {
+        font-size: 0.7em;
+    }
+
+    .footerSocials {
+        width: 30%;
+    }
+
+    .footerContainer h3, .footerContainer a {
+        font-size: 0.25em;
+    }
+
+    .footerContainer p:last-child {
+        font-size: 0.15em;
+    }
 }

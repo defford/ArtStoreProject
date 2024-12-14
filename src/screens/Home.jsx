@@ -7,10 +7,10 @@ const Home = () => {
     
       <div className='hero'>
         <div className="backgroundFilter"></div>
-        <h1 className='heroText'>Original Newfoundland and Labrador-inspired artwork <br/>
-        by Elizabeth Brazil</h1>
         <img id="NFALogo" src="src/assets/NFALogo.png" alt="NewFound Art Logo" />
         <img id="PaintBlotch" src="src/assets/PaintBlotch.png" alt="Blotch of Paint" />
+        <h1 className='heroText'>Original Newfoundland and Labrador-inspired artwork <br/>
+        by Elizabeth Brazil</h1>
         <div className="heroButtons">
           <button className="heroButton1">GET YOURS</button>
           <button className="heroButton2">JOIN CREW</button>
@@ -37,30 +37,30 @@ const Home = () => {
       </div>
 
       <div className="valuesSection">
-        <div className="valuesBackground">
-          <div className="valuesGrid1">
-            <img src="src/assets/jellyBeanRow.png" alt="" id="valuesImage1" />
+          <div className="valuesGrid">
+            <h1 className='valuesTitle'>Our Values</h1>
+            <div className="valuesGrid1">
+              <img src="src/assets/jellyBeanRow.png" alt="" id="valuesImage1" />
+            </div>
+            <div className="valuesGrid2">
+              <h3>Effortless <br />Framing</h3>
+              <p>Our prints use standard dimensions—8x10, 11x14, and 16x20—for simple, cost-effective framing. Whether you prefer off-the-shelf frames or custom designs, your new artwork will fit perfectly and match your style.</p>
+            </div>
+            <div className="valuesGrid3">
+              <h3>Bringing “Home” <br />Home</h3>
+              <p>Elizabeth Brazil’s art captures her home province’s iconic charm—perfect for those longing for home or celebrating their love of the island. It’s not just art; it’s a connection to your roots.</p>
+            </div>
+            <div className="valuesGrid4">
+              <img src="src/assets/frameImage.png" alt="" id="valuesImage2" />
+            </div>
+            <div className="valuesGrid5">
+              <h3>Supporting Local Communities</h3>
+              <p>Every piece of art supports local businesses and craftsmen, from reclaimed frames to independently printed works. When you buy from Newfound Art Co., you’re investing in Newfoundland’s community.</p>
+            </div>
+            <div className="valuesGrid6">
+              <img src="src/assets/oldBoat.png" alt="" id="valuesImage3" />
+            </div>
           </div>
-          <div className="valuesGrid2">
-            <h3>Effortless <br />Framing</h3>
-            <p>Our prints use standard dimensions—8x10, 11x14, and 16x20—for simple, cost-effective framing. Whether you prefer off-the-shelf frames or custom designs, your new artwork will fit perfectly and match your style.</p>
-          </div>
-          <div className="valuesGrid3">
-            <h3>Bringing “Home” <br />Home</h3>
-            <p>Elizabeth Brazil’s art captures her home province’s iconic charm—perfect for those longing for home or celebrating their love of the island. It’s not just art; it’s a connection to your roots.</p>
-          </div>
-          <div className="valuesGrid4">
-            <img src="src/assets/frameImage.png" alt="" id="valuesImage2" />
-          </div>
-          <div className="valuesGrid5">
-            <h3>Supporting Local Communities</h3>
-            <p>Every piece of art supports local businesses and craftsmen, from reclaimed frames to independently printed works. When you buy from Newfound Art Co., you’re investing in Newfoundland’s community.</p>
-          </div>
-          <div className="valuesGrid6">
-            <img src="src/assets/oldBoat.png" alt="" id="valuesImage3" />
-          </div>
-          <h1 className='valuesTitle'>Our Values</h1>
-        </div>
       </div>
 
       <div className="featureSection">
@@ -99,9 +99,9 @@ const Home = () => {
               <br /><br />
               Elizabeth is committed to community. She supports outport projects and works exclusively with local businesses for supplies, framing, and marketing. Her vision is to nurture an artistic collective that celebrates Newfoundland’s traditions while inspiring collaboration and creativity across generations. 
             </p>
-            <div className="artistBottom">
-              <p>Through her work, Elizabeth strives to preserveand share the stories of her home.</p>
-            </div>
+          </div>
+          <div className="artistBottom">
+            <p>Through her work, Elizabeth strives to preserve and share the stories of her home.</p>
           </div>
         </div>
       </div>
@@ -109,7 +109,7 @@ const Home = () => {
         <div className="communityLeftSide">
           <h1 className="communityTitle">Community</h1>
           <div className="communityTextBar">
-            <p>Join us in celebrating Newfoundland and Labrador’sart and culture.</p>
+            <p>Join us in celebrating Newfoundland and Labrador’s art and culture.</p>
           </div>
           <div className="communityTile">
             <h3>Collaborating with Creators</h3>
