@@ -1,5 +1,6 @@
 import React from 'react'
 import Events from './Events.jsx'
+import '../styles/Home.css';
 
 const Home = () => {
   return (

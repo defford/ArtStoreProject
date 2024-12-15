@@ -1,0 +1,490 @@
+[
+    {
+        "id": "1",
+        "name": "Santa in a Dory",
+        "collection": "Seasonal Collection",
+        "series": "Newfoundland Christmas Series",
+        "available_medium": "Print",
+        "original_medium": "Acrylic on Canvas",
+        "year": "2020",
+        "sizes": [
+        { "size": "8x10" },
+        { "size": "16x20" }
+        ],
+        "options": [
+        { "option": "8x10 print", "price": 24 },
+        { "option": "8x10 black matted print", "price": 34 },
+        { "option": "8x10 white matted print", "price": 34 },
+        { "option": "16x20 print on canvas", "price": 125 }
+        ],
+        "short_description": "Santa rowing into St. John's harbour.",
+        "overview_description": "Santa in a Dory is an original acrylic painting completed in 2020 by Elizabeth Brazil. This piece depicts Santa Claus rowing a Newfoundland dory into St. John's Harbour on Christmas Eve.\n\nAvailable in standard sizes that fit most off-the-shelf frames, or can be custom framed for a personalized touch. Options include matted or unmatted prints, as well as prints on canvas. Every reproduction is crafted with care by small, locally owned businesses, ensuring high quality and supporting the local community.",
+        "detailed_description": "This original painting captures the enchanting moment of Santa Claus rowing a traditional Newfoundland dory through the Narrows into St. John's Harbour on Christmas Eve. Dressed in a classic sou'wester hat, Santa navigates the dark, shimmering waters, ready to deliver presents.\n\nThe backdrop is a stunning night sky illuminated by the moon, while the colorful and closely packed jellybean houses of downtown St. John's glow with festive charm. Towering above the whimsical architecture is The Rooms Heritage Museum, an iconic structure that grounds the scene in the heart of Newfoundland's culture.\n\nTrue to Elizabeth Brazil's signature style, the painting embraces a playful and flowing aesthetic, evident in the exaggerated curves of the waves, the buildings, and even Santa's iconic curly beard. This artwork is a joyous celebration of Newfoundland's holiday traditions and its unique, picturesque charm.",
+        "tags": ["nautical", "holiday", "Newfoundland", "harbor"],
+        "flags": ["Best Seller"],
+        "details": [
+        "Print without matte fits any standard 8 x 10 frame",
+        "Print with matte fits any standard 11 x 14 frame",
+        "Ships anywhere in Canada"
+        ],
+        "images": {
+        "main": "santa_in_a_dory_ecommerce.jpg"
+        },
+        "reviews": [
+        {
+            "name": "Emily Carter",
+            "review": "Absolutely love this piece! The colors are so vibrant, and it captures the spirit of Newfoundland perfectly. It looks amazing in my living room!"
+        },
+        {
+            "name": "James McAllister",
+            "review": "The quality of the print is outstanding. I appreciate that it was reproduced using local businesses—it makes it even more special. Highly recommend for anyone who loves unique holiday art!"
+        },
+        {
+            "name": "Sarah Thompson",
+            "review": "I purchased the 8x10 print with a black matte, and it fits perfectly in a standard frame. The detail and whimsical style bring so much character to my home during the holidays!"
+        }
+        ],
+        "category": "prints"
+    },      
+    {
+        "id": "2",
+        "name": "Santa Rows Ashore",
+        "collection": "Seasonal Collection",
+        "series": "Newfoundland Christmas Series",
+        "available_medium": "Print",
+        "original_medium": "Acrylic on Canvas",
+        "year": "2021",
+        "sizes": [
+          { "size": "8x10" }
+        ],
+        "options": [
+          { "option": "8x10 print", "price": 24 },
+          { "option": "8x10 black matted print", "price": 34 },
+          { "option": "8x10 white matted print", "price": 34 }
+        ],
+        "short_description": "Santa rowing into Conception Bay on Christmas Eve.",
+        "overview_description": "Santa Rows Ashore is an original acrylic painting completed in 2021 by Elizabeth Brazil. This piece depicts Santa rowing his traditional Newfoundland dory into Conception Bay on Christmas Eve, with the moonlight reflecting off the water. Available as 8x10 prints in various formats, including matted options, each reproduction is crafted using locally owned businesses to ensure top quality and community support.",
+        "detailed_description": "This enchanting painting captures Santa Claus braving the North Atlantic waters as he rows into Conception Bay on Christmas Eve. Instead of a catch of Atlantic cod, Santa has his trusty bag of toys ready for delivery. The moonlight dances on the ocean's surface, illuminating the steep sea stacks that rise dramatically from the water. These rugged cliffs represent Bell Island, paying homage to Elizabeth Brazil's roots. \n\nSanta, dressed in his iconic sou'wester hat, is seen navigating the nighttime waters with his dory, creating a magical and serene holiday setting. The detailed textures of the sea stacks and the glowing sky highlight the beauty of Newfoundland's coastal landscape, making this painting a celebration of the province's rugged charm and Christmas spirit.",
+        "tags": ["nautical", "holiday", "Newfoundland", "Bell Island", "sea stacks", "Conception Bay"],
+        "details": [
+          "Print without matte fits any standard 8 x 10 frame",
+          "Print with matte fits any standard 11 x 14 frame",
+          "Ships anywhere in Canada"
+        ],
+        "flags": "Best Seller",
+        "images": {
+          "main": "santa_rows_ashore_ecommerce.jpg"
+        },
+        "reviews": [
+          {
+            "name": "Laura Bennett",
+            "review": "I love the connection to Bell Island in this piece. It's such a beautiful representation of Newfoundland's coastline and holiday spirit!"
+          },
+          {
+            "name": "Thomas Reid",
+            "review": "The print quality is outstanding, and the details of the sea stacks are incredible. It's a perfect Christmas gift for anyone who loves Newfoundland."
+          },
+          {
+            "name": "Anna Clarke",
+            "review": "Santa Rows Ashore adds a magical touch to my holiday decor. The moonlit ocean and rugged cliffs are stunning—Elizabeth Brazil captures it perfectly!"
+          }
+        ],
+        "category": "prints"
+      },
+      {
+        "id": "3",
+        "name": "Heritage Santa",
+        "collection": "Seasonal Collection",
+        "series": "Newfoundland Christmas Series",
+        "available_medium": "Print",
+        "original_medium": "Acrylic on Circular Canvas",
+        "year": "2022",
+        "sizes": [
+          { "size": "16x20" }
+        ],
+        "options": [
+          { "option": "16x20 print", "price": 49 }
+        ],
+        "short_description": "Santa wearing a traditional navigator's hat adorned with NL and Labrador flags.",
+        "overview_description": "Heritage Santa is an original acrylic painting completed in 2022 by Elizabeth Brazil. This circular artwork features Santa's iconic beard and hat flowing into the ocean surf, a whimsical nod to Newfoundland's maritime heritage. Available as a 16x20 print, it is locally reproduced using vintage printing techniques by small businesses, ensuring both quality and tradition.",
+        "detailed_description": "This captivating painting showcases Santa Claus in a circular composition, with his flowing beard seamlessly transforming into the cresting waves of the North Atlantic. Set against the backdrop of a clear, cold northern sky, Santa wears a traditional navigator's hat—a nod to historic explorers of the region. Adding a festive touch, the hat is adorned with mistletoe and proudly features the Newfoundland and Labrador flags, paying homage to both regions of the province.\n\nThe original acrylic artwork was designed on a circular canvas and graphically reimagined on a 16x20 white background for easy framing. The text on the print—'NL Heritage Santa' and 'Filled with Wonderment & Wishes at Christmas'—was carefully crafted in a press-style homage by local artist Chris Morrison. This reproduction aligns with traditional printing practices, using a vintage press and the services of a small local business, adding a historic and community-focused charm to the piece.",
+        "tags": ["heritage", "maritime", "Newfoundland", "navigation", "Christmas"],
+        "details": [
+          "Fits any standard 16x20 frame",
+          "Ships anywhere in Canada"
+        ],
+        "images": {
+          "main": "heritage_santa_ecommerce.jpg"
+        },
+        "reviews": [
+          {
+            "name": "Rachel O'Leary",
+            "review": "This piece perfectly blends Newfoundland's history with holiday cheer. The details of the navigator's hat and flowing beard are stunning!"
+          },
+          {
+            "name": "John Fitzgerald",
+            "review": "The vintage printing technique adds such a special touch to this beautiful artwork. It's proudly displayed in my living room!"
+          },
+          {
+            "name": "Megan Walsh",
+            "review": "I love the inclusion of the Newfoundland and Labrador flags. It's a wonderful celebration of the province's heritage!"
+          }
+        ],
+        "category": "prints"
+      },
+      {
+        "id": "4",
+        "name": "Santa at the Cape",
+        "collection": "Seasonal Collection",
+        "series": "Newfoundland Christmas Series",
+        "available_medium": "Print",
+        "original_medium": "Acrylic on Canvas",
+        "year": "2023",
+        "sizes": [
+          { "size": "16x20" }
+        ],
+        "options": [
+          { "option": "16x20 print", "price": 49 }
+        ],
+        "short_description": "Santa anchoring at Cape Spear lighthouse on Christmas Eve.",
+        "overview_description": "Santa at the Cape is an original acrylic painting completed in 2023 by Elizabeth Brazil. This stunning artwork features Santa arriving at Cape Spear, the easternmost point of North America, guided by the historic lighthouse. Available as a 16x20 print, it is locally reproduced using vintage techniques by small businesses, ensuring both quality and tradition.",
+        "detailed_description": "This painting portrays Santa Claus navigating the open waters of the Atlantic Ocean to arrive at Cape Spear, Newfoundland, on Christmas Eve. Cape Spear, the easternmost tip of North America, has long been a guiding light for sailors and is the first point of land to see the sunrise on Christmas morning. \n\nThe lighthouse, the oldest surviving lighthouse in Newfoundland, stands as a beacon of hope, guiding mariners home and, on this occasion, helping Santa on his journey to deliver toys. Santa is depicted in a traditional dory, wearing his sou'wester hat, with a bag of toys in tow. The rugged shoreline, battered and shaped by the ocean waves, frames the scene as Santa anchors his boat to the cliffs under the light of a glowing full moon. Waves crash against the cliffs, rocking his dory, evoking the timeless maritime legacy of Newfoundland. \n\nCape Spear is a National Historic Site and an enduring symbol of Newfoundland's connection to the sea.",
+        "tags": ["lighthouse", "holiday", "Newfoundland", "Cape Spear", "maritime"],
+        "flags": "Artist Pick",
+        "details": [
+          "Fits any standard 16x20 frame",
+          "Ships anywhere in Canada"
+        ],
+        "images": {
+          "main": "santa_at_the_cape_ecommerce.jpg"
+        },
+        "reviews": [
+          {
+            "name": "William Porter",
+            "review": "Santa at the Cape captures the beauty and history of Cape Spear perfectly. The crashing waves and glowing lighthouse make it a magical addition to my holiday decor!"
+          },
+          {
+            "name": "Emily Hayward",
+            "review": "The detail in this painting is incredible! I love the connection to Newfoundland's maritime legacy, and it's a wonderful tribute to Cape Spear."
+          },
+          {
+            "name": "Jacob Walsh",
+            "review": "This print is a showstopper! The lighthouse and moonlit waves bring such character to the piece. A perfect gift for anyone who loves Newfoundland's history."
+          }
+        ],
+        "category": "prints"
+      },
+      {
+        "id": "5",
+        "name": "Santa's Jellybean Row",
+        "collection": "Seasonal Collection",
+        "series": "Newfoundland Christmas Series",
+        "available_medium": "Print",
+        "original_medium": "Acrylic on Canvas",
+        "year": "2023",
+        "sizes": [
+          { "size": "11x14" }
+        ],
+        "options": [
+          { "option": "11x14 print", "price": 34 }
+        ],
+        "short_description": "Santa's beard transforms into waves carrying a dory filled with jellybean houses.",
+        "overview_description": "Santa's Jellybean Row is an original acrylic painting completed in 2023 by Elizabeth Brazil. This vibrant artwork features Santa's whimsical beard flowing into the Atlantic waves, carrying Newfoundland's iconic jellybean houses, a lighthouse, and fishing stages. Available as an 11x14 print, this piece is locally reproduced using high-quality techniques by small businesses, ensuring community-focused craftsmanship.",
+        "detailed_description": "Set on a clear, moonlit winter night, this magical painting depicts Santa Claus overlooking a scene of whimsical charm. Santa's iconic beard flows seamlessly into the ocean waves of the Atlantic, which cradle a dory anchored to the beard itself. The dory carries vibrant jellybean rowhouses, a lighthouse, and traditional fishing stages that seem to rise up over the shores of Newfoundland.\n\nThe houses glow warmly with their winter fireplaces burning, smoke billowing from the chimneys, creating a cozy holiday feel. This unique composition showcases Newfoundland's colorful architecture and maritime culture, all framed under the light of a full moon. This imaginative and vibrant work is a celebration of community, tradition, and the magic of Christmas in Newfoundland.",
+        "tags": ["jellybean houses", "holiday", "Newfoundland", "colorful", "maritime"],
+        "details": [
+          "Fits any standard 11x14 frame",
+          "Ships anywhere in Canada"
+        ],
+        "flags": "Artist Pick",
+        "images": {
+          "main": "santas_jellybean_row_ecommerce.jpg"
+        },
+        "reviews": [
+          {
+            "name": "Catherine Brown",
+            "review": "The colors in this piece are absolutely stunning! It perfectly captures the warmth and whimsy of Newfoundland's Christmas spirit."
+          },
+          {
+            "name": "Patrick O'Connor",
+            "review": "I love how Santa's beard transforms into waves carrying the jellybean houses—it's such a creative take on Newfoundland culture!"
+          },
+          {
+            "name": "Emma Fitzgerald",
+            "review": "This print brings so much life to my holiday decorations. The details of the dory and houses are incredible, and it's a perfect tribute to jellybean row."
+          }
+        ],
+        "category": "prints"
+      },
+      {
+        "id": "6",
+        "name": "The Mariner",
+        "collection": "Seasonal Collection",
+        "series": "Newfoundland Christmas Series",
+        "available_medium": "Print",
+        "original_medium": "Acrylic on Canvas",
+        "year": "2024",
+        "sizes": [
+          { "size": "8x8" },
+          { "size": "12x12" }
+        ],
+        "options": [
+          { "option": "8x8 print", "price": 20 },
+          { "option": "12x12 print", "price": 40 }
+        ],
+        "short_description": "A festive mariner encircled by nautical rope and Cape Spear lighthouse.",
+        "overview_description": "The Mariner is the newest addition to the Seasonal Collection, completed in 2024 by Elizabeth Brazil. This stunning artwork features Santa with a flowing, wavelike beard encircled in a nautical rope wreath adorned with mistletoe and holly. Available as prints in both 8x8 and 12x12 sizes, it is locally reproduced with care by Newfoundland businesses.",
+        "detailed_description": "This captivating painting introduces Santa as 'The Mariner,' celebrating Newfoundland's deep maritime traditions. Santa's flowing beard takes the form of ocean waves and is framed by a festive wreath made of nautical rope dotted with mistletoe and holly. His rosy cheeks hint at the cold North Atlantic air, while his traditional sou'wester hat is adorned with mistletoe and bears the Newfoundland and Labrador flags in its brim.\n\nAdding to the charm, the image includes Cape Spear lighthouse, resting against polished beach rocks and an anchor, symbolizing Newfoundland's rich nautical history. The bright and vibrant colors of Santa and his wreath stand out vividly against the calm night sky, creating a joyful yet serene holiday scene. This piece is perfect for celebrating the connection between Christmas and Newfoundland's maritime heritage.",
+        "tags": ["maritime", "festive", "Newfoundland", "sailor", "Cape Spear", "holiday"],
+        "details": [
+          "Ships anywhere in Canada",
+          "8x8 print fits any standard 8x8 frame",
+          "8x8 print fits any standard 12x12 frame with an 8x8 matte",
+          "12x12 print fits any standard 12x12 frame"
+        ],
+        "flags": "New for 2024",
+        "images": {
+          "main": "the_mariner_ecommerce.jpg"
+        },
+        "reviews": [
+          {
+            "name": "Sarah Jenkins",
+            "review": "This piece beautifully ties together the maritime history of Newfoundland with festive cheer. I love the rope wreath and Cape Spear details!"
+          },
+          {
+            "name": "David MacLean",
+            "review": "The Mariner is such a creative and vibrant artwork. The beard as ocean waves is genius, and it brings such warmth to my holiday decor!"
+          },
+          {
+            "name": "Lisa O'Connell",
+            "review": "The attention to detail in this piece is incredible. The lighthouse and anchor give it a strong Newfoundland vibe, and the colors really pop!"
+          }
+        ],
+        "category": "prints"
+      },
+      {
+        "id": "7",
+        "name": "The Fiddle Player",
+        "collection": "Seasonal Collection",
+        "series": "Mummers Series",
+        "available_medium": "Print",
+        "original_medium": "Acrylic on Canvas",
+        "year": "2019",
+        "sizes": [
+          { "size": "8x10 (print only)" },
+          { "size": "8x10 (matted)" }
+        ],
+        "options": [
+          { "option": "8x10 print", "price": 24 },
+          { "option": "8x10 white matted print", "price": 34 },
+          { "option": "8x10 black matted print", "price": 34 }
+        ],
+        "short_description": "A mummer playing a fiddle in festive spirit.",
+        "overview_description": "The Fiddle Player is an original acrylic painting completed in 2019 by Elizabeth Brazil. Part of the Mummers Series, this festive piece features a mummer joyfully playing a fiddle, celebrating Newfoundland's rich musical traditions and holiday customs. Available as 8x10 prints in multiple formats, it is locally reproduced by small businesses to ensure high-quality craftsmanship.",
+        "detailed_description": "This vibrant painting showcases a traditional Newfoundland mummer joyfully playing a fiddle, a popular folk instrument known for its role in jigs, reels, and festive music. The mummer is dressed in fishing waders, with their face hidden by fabric, honoring the mummering tradition of disguising oneself during Christmastime. A playful detail includes a handkerchief tucked into the waders' pocket, adorned with the Newfoundland flag, adding a local touch to the piece.\n\nSet against a whimsical and festive backdrop, the artwork celebrates Newfoundland's unique blend of music and culture. The fiddle, central to this scene, highlights the province's instrumental music heritage, often heard during Christmas celebrations and community gatherings.",
+        "tags": ["mummering", "music", "Newfoundland", "fiddle", "folk music", "holiday"],
+        "details": [
+          "Ships anywhere in Canada",
+          "8x10 print fits any standard 8x10 frame",
+          "8x10 matted print fits any standard 11x14 frame"
+        ],
+        "images": {
+          "main": "the_fiddle_player_ecommerce.jpg"
+        },
+        "reviews": [
+          {
+            "name": "Jessica Williams",
+            "review": "The Fiddle Player is such a heartwarming piece! It beautifully captures the festive spirit of mummering and Newfoundland’s music culture."
+          },
+          {
+            "name": "Mark Sullivan",
+            "review": "The details in this print are incredible! The handkerchief with the Newfoundland flag is a great touch, and the fiddle is so iconic."
+          },
+          {
+            "name": "Rachel Dunne",
+            "review": "This piece brings back so many memories of traditional Newfoundland music during the holidays. A perfect addition to my collection!"
+          }
+        ],
+        "category": "prints"
+      },      
+      {
+        "id": "8",
+        "name": "The Accordion Player",
+        "collection": "Seasonal Collection",
+        "series": "Mummers Series",
+        "available_medium": "Print",
+        "original_medium": "Acrylic on Canvas",
+        "year": "2019",
+        "sizes": [
+          { "size": "8x10 (print only)" },
+          { "size": "8x10 (matted)" }
+        ],
+        "options": [
+          { "option": "8x10 print", "price": 24 },
+          { "option": "8x10 white matted print", "price": 34 },
+          { "option": "8x10 black matted print", "price": 34 },
+          { "option": "8x10 green matted print", "price": 34 }
+        ],
+        "short_description": "A mummer playing the accordion, surrounded by a festive wreath.",
+        "overview_description": "The Accordion Player is an original acrylic painting completed in 2019 by Elizabeth Brazil. This festive artwork is part of the Mummers Series, showcasing a mummer playing the accordion, surrounded by a wreath adorned with poinsettias and a Newfoundland flag bow. Available as 8x10 prints in multiple formats, this piece is locally reproduced by small businesses with exceptional care and craftsmanship.",
+        "detailed_description": "This festive painting captures the essence of Newfoundland's mummering tradition, with a whimsical mummer playing the accordion. Their face is hidden in typical mummer fashion, while they are dressed in a vintage hat and cozy sweater. Adding to the holiday charm, the mummer is surrounded by a Christmas wreath decorated with poinsettia flowers, holly berries, and pinecones. The wreath features a bow adorned with the Newfoundland flag, a nod to local heritage and pride.\n\nThe accordion, a key instrument in Newfoundland's traditional music, evokes memories of lively jigs, reels, and family gatherings during the holiday season. This piece celebrates the deep connection between music, mummering, and Christmas in Newfoundland.",
+        "tags": ["accordion", "mummering", "Newfoundland", "music", "holiday", "wreath"],
+        "details": [
+          "Ships anywhere in Canada",
+          "8x10 print fits any standard 8x10 frame",
+          "8x10 matted print fits any standard 11x14 frame"
+        ],
+        "images": {
+          "main": "the_accordion_player_ecommerce.jpg"
+        },
+        "reviews": [
+          {
+            "name": "Elaine Morgan",
+            "review": "The Accordion Player is such a delightful piece! The wreath and poinsettia details add so much holiday cheer, and the Newfoundland bow is a wonderful touch."
+          },
+          {
+            "name": "Jack Harrington",
+            "review": "This artwork perfectly captures the spirit of mummering and Newfoundland's holiday traditions. The accordion detail is just fantastic!"
+          },
+          {
+            "name": "Grace Carter",
+            "review": "I love how this piece celebrates music and Christmas together. The mummer's cozy sweater and the Newfoundland flag bow are amazing details!"
+          }
+        ],
+        "category": "prints"
+      },
+      {
+        "id": "9",
+        "name": "Santa's Mummers",
+        "collection": "Seasonal Collection",
+        "series": "Mummers Series",
+        "available_medium": "Print",
+        "original_medium": "Acrylic on Canvas",
+        "year": "2019",
+        "sizes": [
+          { "size": "16x20" }
+        ],
+        "options": [
+          { "option": "16x20 print", "price": 49 }
+        ],
+        "short_description": "Santa's flowing beard filled with playful mummers and traditional instruments.",
+        "overview_description": "Santa's Mummers is an original acrylic painting completed in 2019 by Elizabeth Brazil. This festive piece captures Santa with his iconic beard full of whimsical mummers, celebrating Newfoundland's rich holiday and musical traditions. Available as a 16x20 print, this piece is locally reproduced to ensure exceptional quality and craftsmanship.",
+        "detailed_description": "This imaginative painting features Santa Claus with a flowing, wispy beard teeming with Newfoundland mummers. Each mummer is dressed in traditional concealing attire, adding a playful nod to Newfoundland's cherished mummering tradition. The lively scene includes mummers hanging lights, swinging, and playing traditional folk instruments such as the ugly stick, spoons, accordion, guitar, fiddle, and bodhrán drum.\n\nSanta himself wears a sou'wester hat, paying homage to Newfoundland's maritime heritage, while the subtle background suggests an aerial view of white-capped ocean waves. This piece celebrates the vibrant, joyful spirit of Newfoundland's holiday traditions, blending music, culture, and the playful charm of mummering into a truly unique holiday depiction.",
+        "tags": ["mummering", "holiday", "Newfoundland", "music", "folk instruments", "maritime"],
+        "details": [
+          "Ships anywhere in Canada",
+          "16x20 print fits any standard 16x20 frame"
+        ],
+        "flags": "Best Seller",
+        "images": {
+          "main": "santas_mummers_ecommerce.jpg",
+          "alternate": "santas_mummers_ecommerce_alt.jpg"
+        },
+        "reviews": [
+          {
+            "name": "Margaret O'Neil",
+            "review": "Santa's Mummers is such a lively and festive piece! The details of the mummers and instruments bring back wonderful holiday memories."
+          },
+          {
+            "name": "Tom Walsh",
+            "review": "This print perfectly captures the charm of Newfoundland's holiday traditions. The unique blend of music and mummering is delightful!"
+          },
+          {
+            "name": "Patricia White",
+            "review": "The creativity in this painting is incredible. Santa's beard full of mummers is such a clever way to showcase Newfoundland's culture!"
+          }
+        ],
+        "category": "prints"
+      },
+      {
+        "id": "10",
+        "name": "The Navigator's Hat",
+        "collection": "Seasonal Collection",
+        "series": "Original Christmas Paintings",
+        "available_medium": "Original",
+        "original_medium": "Acrylic on Canvas",
+        "year": "2024",
+        "sizes": [
+          { "size": "12x12" }
+        ],
+        "options": [
+          { "option": "12x12 original in black frame", "price": 295 },
+          { "option": "12x12 original in burgundy frame", "price": 295 }
+        ],
+        "short_description": "Acrylic on canvas, signed original in handmade reclaimed wood frame.",
+        "overview_description": "The Navigator's Hat is an original acrylic painting completed in 2024 by Elizabeth Brazil. This limited series includes ten unique pieces, each featuring Santa with a whimsical, flowing beard and a traditional navigator's hat. Framed in handcrafted reclaimed wood, this is a rare opportunity to own a one-of-a-kind original from a limited series.",
+        "detailed_description": "This stunning original painting depicts Santa with a flowing, wavy beard that transforms into a cresting North Atlantic wave, set against a starry nighttime backdrop. Santa is adorned with a traditional navigator's hat, reminiscent of those worn by early explorers of the east coast, with a Newfoundland flag proudly displayed in the brim. \n\nEach painting in this limited series of ten is unique, offering collectors the chance to own a one-of-a-kind artwork. The frames are handcrafted from reclaimed wood, adding to the piece's authenticity and charm. This painting celebrates Newfoundland's maritime heritage and holiday spirit, blending tradition with Elizabeth Brazil's signature whimsical style.",
+        "tags": ["original", "heritage", "Newfoundland", "navigation", "maritime"],
+        "details": [
+          "Opportunity to own a unique piece (1 of 10) in a limited series",
+          "Purchasing a framed original",
+          "Frames are handmade with reclaimed wood",
+          "Ships anywhere in Canada"
+        ],
+        "flags": "1 of 10 Original",
+        "images": {
+          "main": "the_navigators_hat_ecommerce.jpg",
+          "alternate": "the_navigators_hat_ecommerce_alt.jpg"
+        },
+        "reviews": [
+          {
+            "name": "Lindsay Morgan",
+            "review": "The Navigator's Hat is absolutely stunning! The handmade frame adds so much character, and I love the Newfoundland flag detail on the hat."
+          },
+          {
+            "name": "Michael King",
+            "review": "Owning one of these originals is such a special experience. The attention to detail and craftsmanship are unmatched!"
+          },
+          {
+            "name": "Emma Doyle",
+            "review": "This painting beautifully captures Newfoundland's maritime heritage. The combination of Santa's whimsical beard and the navigator's hat is brilliant!"
+          }
+        ],
+        "category": "originals"
+      },
+      {
+        "id": "11",
+        "name": "Father Christmas Folk Decoration",
+        "collection": "Seasonal Collection",
+        "series": "Handcrafted Christmas Decorations",
+        "available_medium": "Handcrafted",
+        "original_medium": "Handcrafted Acrylic on Canvas",
+        "year": "2024",
+        "sizes": [
+          { "size": "13x19" }
+        ],
+        "options": [
+          { "option": "Red Santa Ornament", "price": 175 },
+          { "option": "Blue Santa Ornament", "price": 175 }
+        ],
+        "short_description": "Handcrafted Father Christmas decoration, part of a limited series of 20.",
+        "overview_description": "The Father Christmas Folk Decoration is a handcrafted acrylic on canvas piece created in 2024. Each piece is part of a limited series of 20, offering collectors the opportunity to own a one-of-a-kind folk art creation. Available in two options: Red Santa Ornament and Blue Santa Ornament.",
+        "detailed_description": "This whimsical Father Christmas folk decoration is a true celebration of traditional craftsmanship. Handmade using sewn canvas and painted in acrylic, it features Santa in a traditional folk art style, carrying his bag of toys in one hand and a lantern in the other. The ornament is supported by a reclaimed wood base and stuffed with cotton for durability and charm. \n\nSanta is adorned with an exaggerated red Christmas hat made from animal-friendly, non-animal hair materials. Each piece in this series is uniquely handcrafted, making it a special collector's item. Only 20 pieces were made, offering a rare opportunity to own an original work of art. Perfect as a holiday centerpiece or a cherished gift, this decoration blends sustainability and festive tradition into a timeless piece of folk art.",
+        "tags": ["handcrafted", "folk art", "Newfoundland", "sustainable", "original", "reclaimed"],
+        "details": [
+          "1 of 20 in a limited series",
+          "Handcrafted with reclaimed wood base",
+          "Animal-friendly materials",
+          "Ships anywhere in Canada",
+          "Measures 13 x 9 x 6"
+        ],
+        "images": {
+          "main": "father_christmas_decoration_ecommerce.jpg"
+        },
+        "reviews": [
+          {
+            "name": "Joanne Peters",
+            "review": "I absolutely adore this decoration! The craftsmanship is impeccable, and knowing it's part of a limited series makes it even more special."
+          },
+          {
+            "name": "Evan Clarke",
+            "review": "The reclaimed wood base and animal-friendly materials make this piece not only beautiful but also sustainable. A perfect holiday addition!"
+          },
+          {
+            "name": "Michelle Grant",
+            "review": "This Father Christmas is a work of art! The details in the painting and the handcrafted touches make it a standout piece for the holidays."
+          }
+        ],
+        "category": "handcrafted"
+      }      
+  ]

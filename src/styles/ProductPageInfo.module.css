@@ -1,0 +1,26 @@
+.productInfo {
+    margin-top: 1rem;
+  }
+  
+  .tabs {
+    display: flex;
+    gap: 1rem;
+  }
+  
+  .tab {
+    font-family: 'Cormorant Garamond', serif;
+    font-size: 1rem;
+    cursor: pointer;
+    background: none;
+    border: none;
+    padding: 0;
+  }
+  
+  .tab.active {
+    text-decoration: underline;
+  }
+  
+  .tabContent {
+    margin-top: 1rem;
+  }
+  

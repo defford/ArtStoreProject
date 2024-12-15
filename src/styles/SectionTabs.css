@@ -1,0 +1,87 @@
+.section-tabs button {
+  all: unset; 
+  font-family: inherit; 
+  font-size: inherit; 
+  color: inherit;
+  margin: 0; 
+  padding: 0; 
+  background: none; 
+  border: none; 
+  box-shadow: none; 
+  text-align: left; 
+  cursor: pointer; 
+}
+
+.section-tabs {
+  display: flex;
+  justify-content: space-around;
+  width: 100%;
+  border-bottom: 1px solid var(--blue);
+}
+
+.tab {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 0.5rem; 
+}
+
+.tab-button {
+  font-family: 'Cormorant Garamond', serif !important; 
+  font-size: 1.1rem !important; 
+  font-weight: bold !important; 
+  letter-spacing: 0.12em; 
+  color: var(--blue); 
+  text-transform: none; 
+  cursor: pointer; 
+  margin: 0; 
+  padding: 0; 
+  background: none; 
+  border: none;
+  text-align: center; 
+}
+
+.tab-button.active {
+  text-decoration: underline; 
+  text-decoration-thickness: 2px; 
+  text-underline-offset: 0.2em; 
+  color: var(--blue); 
+  font-weight: 600; 
+}
+
+.static-dropdown {
+  display: flex;
+  flex-direction: column;
+  gap: 0.5rem; 
+}
+
+.dropdown-item {
+  font-family: 'Cormorant Garamond', serif !important; 
+  font-size: 0.9rem; 
+  font-weight: 400; 
+  letter-spacing: 0.12em; 
+  color: var(--blue); 
+  text-align: left; 
+  cursor: pointer; 
+  margin: 0; 
+  padding: 0; 
+  background: none; 
+  border: none; 
+  box-shadow: none; 
+}
+
+.dropdown-item.active {
+  font-weight: 600; 
+  color: var(--blue); 
+}
+
+.dropdown-item:hover,
+.tab-button:hover {
+  text-decoration: none; 
+  color: var(--blue); 
+}
+
+
+
+
+  

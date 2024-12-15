@@ -1,0 +1,24 @@
+/* THIS IS NOT WORKING WE NEED TO FIGURE THIS OUT BETTER - THE CARDS SHOULD ALWAYS BE ONE STATIC SIZE AND WRAP WITHOUT OVERLAP RATHER THAN EXPANDING OR SHRINKING
+BASED ON HOW MANY CARDS ARE SHOWING */
+
+.product-grid-container {
+  width: 100%;
+  max-width: 60%; 
+  margin: 0 auto; 
+  display: flex;
+  flex-direction: column; 
+}
+
+.product-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(500rem, 1fr)); 
+  grid-auto-rows: 60vh; 
+  gap: 1.5rem; 
+  width: 100%; 
+  justify-content: space-evenly; 
+}
+
+
+
+
+

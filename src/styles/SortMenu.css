@@ -1,0 +1,57 @@
+/* Reset button */
+.sort-button {
+  all: unset; 
+  font-family: 'Montserrat', sans-serif; 
+  font-size: 1rem; 
+  letter-spacing: 0.12em;
+  color: var(--blue);
+  text-align: left;
+  cursor: pointer; 
+}
+
+.sort-menu {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+    width: 100%;
+    margin-right: 0%;
+  }
+  
+  .sort-menu ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    text-align: right;
+  }
+  
+  .sort-menu li {
+    margin-bottom: 0.5rem;
+  }
+  
+  .sort-button {
+    background: none;
+    border: none;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 200;
+    font-size: 0.75rem; 
+    letter-spacing: 0.12em;
+    color: var(--blue); 
+    text-align: left;
+    cursor: pointer;
+    transition: color 0.2s ease;
+    text-transform: none;
+    outline: none;
+  }
+  
+  .sort-button:focus {
+    outline: none;
+  }
+
+  .sort-button:hover {
+    background: none;
+    border: none;
+    color: var(--blue); 
+    text-decoration: none; 
+  }
+  
+  
